@@ -1,11 +1,31 @@
 # Stream2Plex
-Pull YouTube live streams into m3u playlist and xml guide for use with IPTV.  Configured for use with xteve on an unraid system, but this can be changed by editing the directories in main.py
 
-# SETUP
+THANKS to THIS LEGEND: https://github.com/borinbilly/YT2Plex/
+
+Pull YouTube (and soon even more) live streams into m3u playlist and xml guide for use with IPTV. 
+Configured for use with xteve in Docker, but this can also be used without Docker changed by editing the directories in main.py, start.sh and Get-Channels.py.
+
+
+
+
+# For now just ignore everything, scince this is a fork from borinbilly/YT2Plex/
+
+
+# Text Discription, Tutorials and more following.
+
+# Right now my Focus is on getting alls basic functions to work and add most important features.
+
+# I am a really bad Coder :-)
+
+
+
+
+
+# SETUP with Docker
 
 1. Install xteve
 
-Can be found in community applications
+Create a xteve Docker Container, I used: alturismo/xteve
 
   ENABLE FFMPEG
 
