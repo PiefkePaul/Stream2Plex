@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+    environment:
+      - API_KEY=$API_KEY
+    labels:
+      - "com.docker.compose.volumes.playlist=Playlist volume"
+      - "com.docker.compose.volumes.channels=Channels volume"
+      - "com.docker.compose.environment.API_KEY=API Key"
+    command: cron && tail -f /var/log/cron.log
+
